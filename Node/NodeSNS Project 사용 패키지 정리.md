@@ -35,6 +35,7 @@ router.post('/', async(req, res, next) => {
 <br>
 
 ### 2. 파일 업로드 (multer 사용)
+---
 
 ```javascript
 <input ref="imageInput" type="file" multiple hidden @change="onChangeImages">
